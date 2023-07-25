@@ -1,0 +1,32 @@
+@media screen and (min-width:1440px){
+    body{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+    }
+    header{
+        width: 525px;
+    }
+    h1{
+        text-align: start;
+        font-size: 50px;
+        line-height: 55px;
+    }
+    p{
+        text-align: start;
+    }
+    .trial{
+        width: 540px;
+        flex-direction: row;
+    }
+    .input-fields{
+        width: 540px;
+    }
+    input, button, .terms{
+        width: 460px;
+    }
+    form{
+        gap: 20px;
+    }
+}
