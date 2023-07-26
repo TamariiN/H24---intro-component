@@ -57,9 +57,7 @@ input{
     height: 56px;
     border-radius: 5px;
     border: 1px solid #DEDEDE; 
-}
-::placeholder{
-    padding-left: 20px;
+    padding-left: 15px;
 }
 span{
     color: red;
@@ -73,6 +71,11 @@ span{
     font-weight: 500;
     line-height: normal;
     display: none;
+}
+.err{
+    background-image: url(./assets/Group\ 11.svg);
+    background-position: 90%;
+    background-repeat: no-repeat;
 }
 button{
     width: 279px;
